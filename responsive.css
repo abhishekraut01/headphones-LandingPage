@@ -1,0 +1,6 @@
+/* Media query for tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+    #navBar1-part2 a {
+        display: none; 
+    }
+}
