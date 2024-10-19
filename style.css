@@ -191,9 +191,9 @@ main {
 }
 
 #page2-part1 {
-    height: 300px;
+    height: 40vh;
     width: 80%;
-    font-size: 22px;
+    font-size: 32px;
     /* background-color: #252525; */
     display: flex;
     justify-content: center;
@@ -210,7 +210,7 @@ main {
 /* -----------------page2 part 2 */
 
 #page2-part2 {
-    height: 600px;
+    height: 90vh;
     width: 80%;
     /* background-color: #c04d4d; */
     display: flex;
@@ -232,10 +232,31 @@ main {
 #page2-part2-top-left{
     height: 95%;
     width: 30%;
-    background-color: #e85454;
+    /* background-color: #e85454; */
+    background-image: url(./images/module-feature-item1-1920.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
-    font-size: 25px;
+   position: relative;
     border-radius: 22px;
+}
+
+#page2-part2-top-left  h2{
+    position: absolute;
+    font-size: 4vh;
+    padding-right: 20px;
+    color: #000;
+    top: 5%;
+    left: 15%;
+}
+
+#page2-part2-top-left  h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 20%;
+    left: 15%;
 }
 
 #page2-part2-top-right{
@@ -266,27 +287,94 @@ main {
 #page2-part2-top-right-top-left{
     height: 100%;
     width: 49%;
-    background-color: #559944;
+    /* background-color: #559944; */
+    background-image: url(./images/module-feature-item2-1920.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 25px;
     border-radius: 22px;
+    position: relative;
 }
+
+#page2-part2-top-right-top-left h2{
+    position: absolute;
+    font-size: 4vh;
+    padding-right: 35px;
+    color: #000;
+    top: 10%;
+    left: 12%;
+}
+
+#page2-part2-top-right-top-left h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 37%;
+    left: 12%;
+}
+
 #page2-part2-top-right-top-right{
     height: 100%;
     width: 49%;
-    background-color: #994496;
+    /* background-color: #994496; */
+    background-image: url(./images/module-feature-item3-1440.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 25px;
     border-radius: 22px;
+    position: relative;
 }
 
+#page2-part2-top-right-top-right h2{
+    position: absolute;
+    font-size: 4vh;
+    padding-right: 35px;
+    color: #000;
+    top: 10%;
+    left: 12%;
+}
+
+#page2-part2-top-right-top-right h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 37%;
+    left: 12%;
+}
+
+
+
 #page2-part2-top-right-bottom{
-    height: 95%;
+    height: 70%;
     width: 100%;
-    background-color: #c60000;
+    /* background-color: #c60000; */
+    background-image: url(./images/module-feature-item4-1920.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 25px;
     border-radius: 22px;
+    position: relative;
+}
+#page2-part2-top-right-bottom h2{
+    position: absolute;
+    font-size: 4vh;
+    padding-right: 60%;
+    color: #000;
+    top: 10%;
+    left: 2%;
+}
+#page2-part2-top-right-bottom h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 50%;
+    left: 2%;
 }
 
 #page2-part2-bottom{
@@ -303,25 +391,131 @@ main {
 #page2-part2-bottom-left{
     height: 100%;
     width: 49%;
-    background-color: #90d14a;
+    background-color: #fff;
     color: #fff;
     font-size: 25px;
     border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+#page2-part2-bottom-left-left{
+    height: 100%;
+    width: 60%;
+    /* background-color: #7a9223; */
+    color: #fff;
+    font-size: 25px;
+    border-radius: 22px;
+    position: relative;
+}
+#page2-part2-bottom-left-left h2{
+    position: absolute;
+    font-size: 4vh;
+    color: #000;
+    top: 10%;
+    left: 10%;
+}
+
+#page2-part2-bottom-left-left h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 60%;
+    left: 10%;
+}
+
+#page2-part2-bottom-left-right{
+    height: 80%;
+    width: 40%;
+    /* background-color: #4aafd1; */
+    background-image: url(./images/module-feature-item5-1920.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 22px;
+    margin-right: 50px;
+}
+
 
 #page2-part2-bottom-right{
     height: 100%;
     width: 49%;
-    background-color: #396806;
+    background-color: #fff;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page2-part2-bottom-right-left{
+    height: 100%;
+    width: 60%;
+    /* background-color: #fff; */
+    color: #fff;
+    font-size: 25px;
+    border-radius: 22px;
+    position: relative;
+}
+#page2-part2-bottom-right-left h2{
+    position: absolute;
+    font-size: 4vh;
+    color: #000;
+    top: 10%;
+    left: 10%;
+}
+
+#page2-part2-bottom-right-left h3{
+    position: absolute;
+    font-size: 2.8vh;
+    color: #000;
+    top: 45%;
+    left: 10%;
+}
+#page2-part2-bottom-right-right{
+    height: 80%;
+    width: 49%;
+    /* background-color: #460668;*/
+    background-image: url(./images/module-feature-item6-1920.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 25px;
     border-radius: 22px;
 }
 
-/* -----------------page2 part 1*/
-
+/* -----------------page2 part 3*/
 #page2-part3 {
-    height: 600px;
+    height: 90vh;
     width: 80%;
-    background-color: #35b4c0;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures video fits within the container */
+}
+
+#page2-part3-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the container without distortion */
+    border-radius: 10px;
+}
+
+#page2-part3-btn {
+    height: 50px;
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
 }
