@@ -19,13 +19,13 @@ function animationsUsingGSAP() {
     })
 
 
-    gsap.from("#page2-part1 h1", {
+    gsap.from("#page2-part1 h1 , #page2-part2", {
         scrollTrigger: {
             trigger: "#page2-part1 h1",
             scroller: "body",
             // markers :true,
             start: "top 100%",
-            end: "top 80%",
+            end: "top 70%",
             scrub: 4
         },
         opacity: 0,
@@ -34,7 +34,51 @@ function animationsUsingGSAP() {
         ease: "power2.out"
     });
 
+    gsap.from("#page3-section1 h2 , #page3-section1 h1 , #page3-section1 h5", {
+        scrollTrigger: {
+            trigger: "#page3-section1 h2",
+            scroller: "body",
+            // markers :true,
+            start: "top 100%",
+            end: "top 90%",
+            scrub: 4
+        },
+        opacity: 0,
+        y: 90,
+        duration: 1,
+        ease: "power2.out",
+        stagger : 1
+    });
 
+    gsap.from("#page3-section2-left h1 , #page3-section2-left h1 span ,#page3-section2-left h3 ", {
+        scrollTrigger: {
+            trigger: "#page3-section2-left h1",
+            scroller: "body",
+            // markers :true,
+            start: "top 100%",
+            end: "top 80%",
+            scrub: 4
+        },
+        opacity: 0,
+        y: 90,
+        duration: 1,
+        ease: "power2.out",
+    });
+
+    gsap.from("#page3-section2-right img ", {
+        scrollTrigger: {
+            trigger: "#page3-section2-left h1",
+            scroller: "body",
+            // markers :true,
+            start: "top 100%",
+            end: "top 80%",
+            scrub: 4
+        },
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        stagger : 1
+    });
 
 }
 
