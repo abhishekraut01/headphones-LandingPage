@@ -84,11 +84,27 @@ function animationsUsingGSAP() {
         scrollTrigger: {
             trigger: "#page4-content",
             scroller: "body",
-            markers :true,
+            // markers :true,
+            start: "top 100%",
+            end: "top 99%",
+            scrub: 3
+        },
+        duration: 1,
+        y: 130,
+        ease: "power2.out",
+        stagger : 1
+    });
+
+    gsap.from("#page5-right-content ", {
+        scrollTrigger: {
+            trigger: "#page5-right-content",
+            scroller: "body",
+            // markers :true,
             start: "top 100%",
             end: "top 90%",
             scrub: 4
         },
+        opacity:0,
         duration: 1,
         y: 130,
         ease: "power2.out",
@@ -106,7 +122,50 @@ function animationsUsingGSAP() {
         },
         opacity: 1,  // Animate opacity to 1
     });
+    
+    //wave line animations
+    gsap.to(".line-1", {
+        duration : .6,          // Increase duration for a 
+        scaleY: 1.6,            // Expand vertically
+        ease: "power2.inOut",   // Use in-out easing for a natural wave effect
+        repeat: -1,             // Infinite repeat
+        yoyo: true,             // Reverse the animation
+    });
 
+    gsap.to(".line-2", {
+        duration : .7,          // Increase duration for a 
+        scaleY: 1.6,            // Expand vertically
+        ease: "power2.inOut",   // Use in-out easing for a natural wave effect
+        repeat: -1,             // Infinite repeat
+        yoyo: true,             // Reverse the animation
+    });
+
+    gsap.to(".line-3", {
+        duration : .9,          // Increase duration for a 
+        scaleY: 1.6,            // Expand vertically
+        ease: "power2.inOut",   // Use in-out easing for a natural wave effect
+        repeat: -1,             // Infinite repeat
+        yoyo: true,             // Reverse the animation
+    });
+
+
+    //page 6 animation
+    gsap.from("#page6 ", {
+        scrollTrigger: {
+            trigger: "#page6-wrapper",
+            scroller: "body",
+            // markers :true,
+            start: "top 100%",
+            end: "top 90%",
+            scrub: 3
+        },
+        opacity:0,
+        duration: 1,
+        y: 130,
+        ease: "power2.out",
+        stagger : 1
+    });
+    
 }
 
 animationsUsingGSAP()
