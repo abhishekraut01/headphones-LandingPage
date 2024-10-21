@@ -80,6 +80,33 @@ function animationsUsingGSAP() {
         stagger : 1
     });
 
+    gsap.from("#page4-content ", {
+        scrollTrigger: {
+            trigger: "#page4-content",
+            scroller: "body",
+            markers :true,
+            start: "top 100%",
+            end: "top 90%",
+            scrub: 4
+        },
+        duration: 1,
+        y: 130,
+        ease: "power2.out",
+        stagger : 1
+    });
+
+    gsap.to("#overlay", {
+        scrollTrigger: {
+            trigger: "#page4-content h1",
+            scroller: "body",
+            // markers: true,
+            start: "top 100%",
+            end: "top 50%",
+            scrub: true, // Smoothly animate as you scroll
+        },
+        opacity: 1,  // Animate opacity to 1
+    });
+
 }
 
 animationsUsingGSAP()
