@@ -168,4 +168,15 @@ function animationsUsingGSAP() {
     
 }
 
+function MovingHeadphonesAnimation() {
+    let timeLine = gsap.timeLine({scrollTrigger:{
+        trigger: '#page7-part2',
+        start: '50% 50%',
+        end: '50% 50%',
+        markers: true,
+        scrub: true
+    }});
+}
+
 animationsUsingGSAP()
+MovingHeadphonesAnimation()
