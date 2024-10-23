@@ -64,7 +64,7 @@ main {
 
 #navBar1-part2 i {
     font-size: 25px;
-    color: #252525;
+    color: #252525; 
 }
 
 #navBar1-part2 i:nth-child(7) {
@@ -83,6 +83,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: #fff;
+    z-index: 99;
+    position: fixed; */
 }
 
 #navBar2 a {
@@ -1034,4 +1037,325 @@ main {
     font-size: 1.2vw;
     font-weight: 500;
     color: #000;
+}
+
+
+#page8{
+    height: 120vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page8-wrapper{
+    height: 80%;
+    width: 80%;
+    /* background-color: #00ff55; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page8-up{
+    height: 30%;
+    width: 100%;
+    /* background-color: #00ff55; */
+    padding: 50px;
+    box-sizing: border-box;
+}
+#page8-up h1{
+    padding-right:34% ;
+    font-size: 2.8vw;
+    font-weight: 500;
+}
+#page8-up h1 span{
+    color:#707070
+}
+#page8-up h4{
+    padding-right:30% ;
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#page8-down{
+    height: 70%;
+    width: 100%;
+    /* background-color: #e75656; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#page8-down-left{
+    height: 90%;
+    width: 30%;
+    background-color: #A7CAEA;
+    border-radius: 20px;
+    position: relative;
+}
+#page8-down-left h2{
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 22%;
+    left: 56%;
+    transform: translate(-30% , -22%);
+}
+
+#page8-down-left img:nth-child(2){
+    height: 130px;
+    position: absolute;
+    top: 33%;
+    left: 28%;
+    transform: translate(-30% , -35%);
+    z-index: 99;
+}
+
+#page8-down-left img:nth-child(3){
+    height: 280px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50% , -100%);
+}
+
+#page8-down-right{
+    height: 90%;
+    width: 60%;
+    border-radius: 20px;
+    background-image: url(./images/module-deep-camera-img2-1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page9{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page9-wrapper{
+    height: 80%;
+    width: 80%;
+    /* background-color: #00ff55; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page9-wrapper-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: #A7CAEA; */
+    padding-right: 10%;
+}
+
+#page9-wrapper-left h1{
+    font-size: 2.9vw;
+    padding-top: 40%;
+    color: #ffffff;
+    font-weight: 500;
+}
+#page9-wrapper-left h1 span{
+    color: #aeaeae;
+
+}
+#page9-wrapper-left h4{
+    margin-top: 20px;
+    font-size: 1.2vw;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#page9-wrapper-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: #2d7cc6; */
+    position: relative;
+}
+
+#page9-wrapper-right img{
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 7px;
+}
+
+#page10{
+    height: 110vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#page10-wrapper{
+    height: 95%;
+    width: 80%;
+    /* background-color: #9adaaf; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page10-wrapper-top{
+    height: 30%;
+    width: 100%;
+    /* background-color: salmon; */
+    position: relative;
+}
+
+#page10-wrapper-top img{
+    height: 120px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+#page10-wrapper-top h4{
+    font-size: 1.1vw;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 20px;
+}
+#page10-wrapper-top h1{
+    font-size: 2.9vw;
+    font-weight: 500;
+    color: #fff;
+}
+#page10-wrapper-top h1:nth-child(2){
+    color: #707070;
+}
+
+#page10-wrapper-bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(123, 123, 202); */
+    justify-content: space-between;
+
+}
+
+#page10-wrapper-left{
+    height: 90%;
+    width: 65%;
+    background-image: url(/images/module-water-touch-img-1440.jpg);
+    /* background-color: #00ff55; */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 10%;
+    border-radius: 15px;
+}
+#page10-wrapper-right{
+    height: 100%;
+    width: 30%;
+    /* background-color: #4c8ecb; */
+    padding-right: 10%;
+}
+.page10-wrapper-right-container{
+    height:25%;
+    width: 150%;
+    gap: 30px;
+    /* background-color: #00ff55; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page10-wrapper-right-container img{
+    height: 90px;
+}
+#page10-wrapper-right-container-text h2{
+    font-size: 2vw;
+    color: #55beff;
+    font-weight: 600;
+}
+#page10-wrapper-right-container-text h3{
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 400;
+}
+#page10-wrapper-right-container-text h3:nth-child(2){
+    margin-top: 10px;
+}
+#page10-wrapper-right-container-text h4{
+    color: #b6b6b6;
+    font-weight: 400;
+}
+
+#page11{
+    height: 120vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page11-wrapper{
+    height: 80%;
+    width: 80%;
+    /* background-color: #00ff55; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page11-up{
+    height: 30%;
+    width: 100%;
+    /* background-color: #00ff55; */
+    padding: 50px;
+    box-sizing: border-box;
+}
+#page11-up h1{
+    /* padding-right:30% ; */
+    font-size: 2.8vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+#page11-up h1 span{
+    color:#a2a2a2
+}
+#page11-up h4{
+    padding-right:30% ;
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #ffffff;
+}
+#page11-down{
+    height: 70%;
+    width: 100%;
+    /* background-color: #e75656; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#page11-down-left{
+    height: 86%;
+    width: 30%;
+    background-image: url(./images/module-water-compact-img2-1920.webp);
+    background-size: contain;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+#page11-down-right{
+    height: 86%;
+    width: 60%;
+    border-radius: 20px;
+    background-image: url(./images/module-water-compact-img1-1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
